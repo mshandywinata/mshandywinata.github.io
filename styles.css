@@ -10,10 +10,10 @@
 
 body {
     place-items: center;
-    animation: bgcolor 5s;
+    background-color: #FFFDFA;
 }
 
-@keyframes bgcolor {
+/* @keyframes bgcolor {
     0% {
         background-color: #edde13;
     }
@@ -22,6 +22,7 @@ body {
         background-color: #FFFDFA;
     }
 }
+*/
 
 
 /* gaya untuk navigasi */
