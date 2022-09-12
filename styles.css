@@ -11,7 +11,20 @@
 body {
     place-items: center;
     background-color: #FFFDFA;
-    font-family: sans-serif;
+}
+
+p {
+    color: black;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    color: black;
 }
 
 /* @keyframes bgcolor {
@@ -32,6 +45,18 @@ nav {
     position: relative;
     animation-duration: 2s;
     animation-name: slideintop;
+}
+
+@keyframes slideinnav {
+    0% {
+        right: -250px;
+        opacity: 0%;
+    }
+
+    100% {
+        right: 0px;
+        opacity: 100%;
+    }
 }
 
 @keyframes slideintop {
@@ -89,7 +114,6 @@ nav {
 }
 
 nav ul li a {
-    color: #edde13;
     text-transform: uppercase;
     font-weight: 900;
     transition: 0.5s;
@@ -106,20 +130,26 @@ nav ul li a:hover {
 
 .beranda {
     position: relative;
-    animation-name: slideintop;
-    animation-duration: 3s;
+    animation-name: slideinnav;
+    animation-duration: 2s;
 }
 
 .profilSekolah {
     position: relative;
-    animation-name: slideintop;
-    animation-duration: 3.5s;
+    animation-name: slideinnav;
+    animation-duration: 2.25s;
 }
 
 .biodataPenulis {
     position: relative;
-    animation-name: slideintop;
-    animation-duration: 4s;
+    animation-name: slideinnav;
+    animation-duration: 2.5s;
+}
+
+.layananEmail {
+    position: relative;
+    animation-name: slideinnav;
+    animation-duration: 2.75s;
 }
 
 /* gaya untuk header */
@@ -316,6 +346,36 @@ h3 {
 .fotoProfil:hover {
     transform: scale(125%);
     transition: 0.5s;
+}
+
+/* gaya untuk layanan e-mail */
+
+.logoRoundCube {
+    width: 500px;
+    transition: 0.5s;
+}
+
+.logoRoundCube:hover {
+    scale: 125%;
+    transform: rotate(15deg);
+    filter: brightness(125%);
+    transition: 0.5s;
+}
+
+.tombol {
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: 0.5s;
+    border-radius: 24px;
+    background-color: #edde13; 
+}
+
+.tombol:hover {
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 3px solid;
+    border-radius: 24px;
+    background-color: aliceblue;
 }
 
 /* gaya untuk footer */

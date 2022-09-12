@@ -6,6 +6,7 @@
 
         <!-- CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/bootstrap.css">
       <link rel="stylesheet" href="./styles.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -13,9 +14,6 @@
 
     <!-- Badan HTML -->
     <body id="beranda">
-
-        <!-- Bundle JS dengan Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
         <!-- Navigasi -->
         <nav class="navbar navbar-expand-lg shadow navbar-light fixed-top">
@@ -41,6 +39,10 @@
 
                   <li class="nav-item biodataPenulis">
                     <a class="nav-link" href="#biodataPenulis"><i class="fa-solid fa-circle-user px-2"></i>Biodata Penulis</a>
+                  </li>
+
+                  <li class="nav-item layananEmail">
+                    <a class="nav-link" href=#layananEmail><i class="fa-solid fa-envelope-open-text px-2"></i>Layanan E-Mail</a>
                   </li>
 
                 </ul>
@@ -73,7 +75,7 @@
             <div class="container">
                 <div class="row my-5 pt-5 text-center">
                     <h1 class="judulSection">
-                      <i class="fa-solid fa-school px-2"></i>Profil Sekolah
+                      <i class="fa-solid fa-school px-4"></i>Profil Sekolah
                     </h1>
                 </div>
                 <div class="row">
@@ -145,7 +147,7 @@
                         <h1 class="text-center"></i><i class="bi bi-pc-display px-2"></i><i class="bi bi-gear-wide-connected px-2"></i><i class="bi bi-robot px-2"></i><i class="bi bi-lightning-charge-fill px-2"></i><i class="bi bi-bezier2 px-2"></i></h1>
                         <h3 class="card-text text-center">Kompetensi Keahlian</h3>
                         <div class="card-body text-center">
-                          <p class="card-text">TKJ (Teknik Komputer dan Jaringan),<br>TKRO (Teknik Kendaraan Ringan dan Otomotif),<br>ELIN (Elektronika Industri),<br>TITL (Teknik Instalasi Tenaga Listrik),<br>dan DKV (Desain Komunikasi Visual)</p>
+                          <p class="card-text">TKJ (Teknik Komputer dan Jaringan),<br>TKRO (Teknik Kendaraan Ringan dan Otomotif),<br>ELIN (Elektronika Industri),<br>TITL (Teknik Instalasi Tenaga Listrik),<br>DKV (Desain Komunikasi Visual)</p>
                         </div>
                       </div>
                     </div>      
@@ -256,13 +258,36 @@
           </section>
           <!-- Akhir Biodata Diri -->
 
+          <!-- Layanan E-Mail -->
+          <section id="layananEmail">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col">
+                  <img src="./gambar/roundcube.png" alt="" class="logoRoundCube">
+                </div>
+                <div class="col">
+                  <h1 class="judulSection">
+                    <i class="fa-solid fa-envelope-open-text pe-4"></i>Layanan E-Mail
+                  </h1>
+                  <p>Cobalah layanan E-Mail berbasis web kami dengan menggunakan roundcube sebagai webmail!</p>
+                  <button type="button" class="tombol px-3 py-2"><a href="http://mail.mshandywinata.com"><i class="fa-solid fa-paper-plane px-2"></i>Kunjungi Laman!</a></button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Akhir Layanan E-Mail -->
       <!-- Footer -->
       <div class="d-flex flex-column text-center fw-bold">
         <footer class="mt-auto">
-          <p>Dibuat oleh <a href="https://www.instagram.com/altrnt.if" class="text-dark">Muhamad Shandy Winata</a></p>
+          <p><a href="https://www.instagram.com/altrnt.if" class="text-dark"><i class="fa-solid fa-link px-2"></i>Muhamad Shandy Winata</a></p>
         </footer>
       </div>
       <!-- Akhir Footer -->
 
     </body>
+
+    <!-- JS dengan Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+
 </html>
