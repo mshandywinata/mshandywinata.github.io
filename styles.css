@@ -11,7 +11,7 @@ body {
 
 button {
     font-family: 'Courier New', Courier, monospace;
-    padding: 0px 10px;
+    padding: 5px 20px;
     background-color: blue;
     color: white;
 }
@@ -43,6 +43,7 @@ li {
     display: flex;
     justify-content: space-between;
     background-color: white;
+    align-items: center;
     color: black;
     padding: 5px 10px;
 }
@@ -56,10 +57,25 @@ li {
 
 .images img {
     margin-top: 10px;
-    width: 50%;
+    width: 35%;
 }
 
 .command {
     text-align: left;
     color: aquamarine;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.files body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
