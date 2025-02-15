@@ -60,7 +60,7 @@ li {
 
 .images img {
     margin-top: 10px;
-    width: 40%;
+    max-width: 230px;
 }
 
 .command {
