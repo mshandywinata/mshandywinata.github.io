@@ -11,10 +11,11 @@ body {
 
 button {
     font-family: 'Courier New', Courier, monospace;
-    padding: 5px 15px;
+    padding: 10px 15px;
     background-color: blue;
     color: white;
     font-weight: bold;
+    margin: 0 -3px;
 }
 
 a {
